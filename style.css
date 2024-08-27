@@ -1,0 +1,41 @@
+
+.header {
+    color: rgb(128, 128, 128);
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+}
+
+.cursor {
+    font-weight: bold;
+    font-size: 24px;
+    cursor: black;
+}
+
+.cursor.hidden{
+    visibility: hidden;
+}
+
+input {
+    background-color: black;
+    border: none;
+    color: rgb(128, 128, 128);
+    font-size: 24px;
+    caret-color: transparent;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;;
+}
+
+input:focus {
+    outline: none;
+    pointer-events: none;
+}
+
+#resposta {
+    color: grey;
+}
